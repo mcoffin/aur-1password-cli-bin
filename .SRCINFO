@@ -1,0 +1,14 @@
+pkgbase = 1password-cli-bin
+	pkgdesc = 1password password manager cli
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = https://1password.com
+	arch = x86_64
+	license = custom:LicenseRef-1Password-Proprietary
+	provides = 1password-cli
+	conflicts = 1password-cli
+	source = op.zip::https://cache.agilebits.com/dist/1P/op/pkg/v1.8.0/op_linux_amd64_v1.8.0.zip
+	sha512sums = 405f3620681bbd7eb647fcda6fa410aa86cd3e3ca8432693a62bbc1119a139cc1e14eb53e0d207531a5183435da6562f66755a188b01a855faea8be5a7bb3f6b
+
+pkgname = 1password-cli-bin
+
